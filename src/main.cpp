@@ -43,6 +43,8 @@ pros::ADIUltrasonic ultrasonic(PING,ECHO); // ultrasonic sensor
 			claw.move(master.get_analog(ANALOG_RIGHT_X));
 			pros::delay(2);
 		}
+		left_wheels = 0;
+		right_wheels = 0;
 	}
 	
 }
