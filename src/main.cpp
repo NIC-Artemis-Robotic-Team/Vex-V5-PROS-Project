@@ -1,10 +1,10 @@
 #include "main.h"
 
 // Port Assignment
-#define LEFT_WHEELS_FRONT 10
-#define RIGHT_WHEELS_FRONT 1
-#define LEFT_WHEELS_BACK 9
-#define RIGHT_WHEELS_BACK 2
+#define LEFT_WHEELS_FRONT 12
+#define RIGHT_WHEELS_FRONT 11
+#define LEFT_WHEELS_BACK 20
+#define RIGHT_WHEELS_BACK 19
 
 
 // ultrasonic port assignment
