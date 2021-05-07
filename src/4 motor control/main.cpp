@@ -45,7 +45,7 @@ void opcontrol()
 
         int distance = ultrasonic.get_value();
         // if button is pressed disable ultrasonic sensor
-        if ((distance > 200 || distance <= 0) || ultraSonicOn == 0)
+        if ((distance > 100 || distance <= 0) || ultraSonicOn == 0)
         {
             left_wheels_f = master.get_analog(ANALOG_LEFT_Y) / levels[currentLevel];
             left_wheels_b = master.get_analog(ANALOG_LEFT_Y) / levels[currentLevel];
@@ -88,10 +88,10 @@ void opcontrol()
             left_wheels_f = left_wheels_b = 0;
             right_wheels_f = right_wheels_b = 0;
 
-            left_wheels_f = -45;
-            right_wheels_f = -45;
-            left_wheels_b = -45;
-            right_wheels_b = -45;
+            left_wheels_f = -40;
+            right_wheels_f = -40;
+            left_wheels_b = -40;
+            right_wheels_b = -40;
         }
     }
 }
